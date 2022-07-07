@@ -1,0 +1,25 @@
+name: build_assets
+description: A simple command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  path: ^1.8.2
+  code_builder: ^4.1.0
+  yaml: ^3.1.1
+  dart_style: ^2.2.3
+  quiver: ^3.1.0
+  args: ^2.3.1
+  file: ^6.1.2
+
+executables:
+  buildassets: build_assets
+
+dev_dependencies:
+  hms_dart_lints:
+    git:
+      url: git@bitbucket.org:HealthMetricsCo/healthmetrics-memberapp-tool-hms_dart_lints.git
+      ref: v1.0.2
